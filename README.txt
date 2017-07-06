@@ -1,4 +1,3 @@
-# cosmopy
 
 cosmopy is python package that computes the many cosmological
 distances for Lambda non-zero cosmology, such as the luminosity,
@@ -11,7 +10,7 @@ array. It numerically integrates in E(z) integral using a fast Fortran
 77 library.
 
 
-## Requirements:
+Requirements:
 -------------
 
 1) First of all, you need python 2.2 or greater
@@ -23,7 +22,7 @@ array. It numerically integrates in E(z) integral using a fast Fortran
 3) Numpy. Get it from http://numpy.scipy.org/
 
 
-## Installation:
+Installation:
 -------------
 
 a) Build and install system-wide
@@ -47,9 +46,9 @@ config_fc option
 
 %> ./setup.py config_fc "--f77exec=/usr/bin/f77" install --home=/home/felipe/Python
 
-## Examples:
+Examples:
 ---------
-```
+
 # Fits import the necesary packages
 import numpy
 import cosmopy
@@ -108,4 +107,3 @@ o.dang(z)
 o.age(z)
 o.lookback(z)
 # ... and so on...
-```

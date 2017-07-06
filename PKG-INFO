@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: cosmopy
+Version: 0.2
+Summary: A Python class for Cosmological Distances
+Home-page: http://felipe.menanteau.org
+Author: Felipe Menanteau
+Author-email: felipe@physics.rutgers.edu
+License: GNU General Public License, http://www.gnu.org/copyleft/gpl.html
+Description: cosmopy is a python package that computes the many cosmological
+                 distances for Lambda non-zero cosmology, such as the
+                 luminosity, angular and comoving distances at a given
+                 redshift. It also computes the age of the universe, the
+                 look-back time and the age of galaxy for a given redshift of
+                 formation. cosmopy follows the definitions from Hogg (1998)
+                 astro-ph/9905116.
+Platform: Linux
+Platform: Solaris
